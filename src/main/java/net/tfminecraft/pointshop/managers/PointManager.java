@@ -18,6 +18,8 @@ import net.tfminecraft.pointshop.objects.PlayerData;
 import net.tfminecraft.pointshop.objects.Trade;
 
 public class PointManager implements Listener{
+	// Keep the existing legacy text representation, formatting, and exact-string comparisons.
+	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void invenClick(InventoryClickEvent e) {
 		if(e.getClickedInventory() == null) return;
