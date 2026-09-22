@@ -1,22 +1,23 @@
-# pointshop
+# PointShop
 
-Technical documentation is maintained in [TF-Minecraft/Docs](https://github.com/TF-Minecraft/Docs/blob/main/projects/PointShop/README.md).
+> A points-for-rewards shop for TF-Minecraft.
 
-Use that project index for setup, configuration, architecture, integration and testing guides. This repository contains the source and project-specific assets.
+**Status: archived.** This repository preserves the PointShop plugin.
 
-## TLibs build dependency
+PointShop lets players exchange named point balances for server-defined rewards. A compact inventory menu presents the available offers, their prices, and how many points the player currently holds. Selecting an affordable offer spends its points and delivers the associated reward.
 
-TLibs is a versioned Maven `provided` dependency. From this repository, prepare
-it once with the shared installer, then build as usual:
+## Features
 
-```sh
-python3 ../tlibs/tools/install-dependency.py --pom pom.xml
-mvn clean verify
-```
+- **Multiple point types** — keep separate balances for different named reward currencies.
+- **An in-game shop menu** — browse offers with item icons, point costs, and personal balances together.
+- **Fixed or random rewards** — give a specific result or choose from a weighted set of possible results.
+- **Flexible reward actions** — fulfill purchases through server commands, allowing the shop to work with other reward systems.
+- **Saved player balances** — retain points between sessions and let staff award points to players.
 
-See [TLibs dependency setup](https://github.com/TF-Minecraft/TLibs/blob/v1.1.0/DEPENDENCIES.md)
-for public release installation, offline builds and rollback.
-Other declared build dependencies still need their usual preparation.
-Use JDK 25 for this TLibs binary; the server must also run Java 25.
+The plugin focuses on spending and tracking points. The meaning of each currency and the rewards it buys belong to the server's own reward design.
 
-Builds and server runtime require Java 25 and [TLibs 1.1.0](https://github.com/TF-Minecraft/TLibs/releases/tag/v1.1.0).
+## Documentation
+
+[Project documentation](https://github.com/TF-Minecraft/Docs/blob/main/projects/PointShop/README.md)
+
+Technical documentation is maintained in [TF-Minecraft/Docs](https://github.com/TF-Minecraft/Docs).
