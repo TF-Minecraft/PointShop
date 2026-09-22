@@ -1,4 +1,4 @@
-main: net.tfminecraft.PointShop.PointShop
+main: net.tfminecraft.pointshop.PointShop
 api-version: '1.21.10'
 name: PointShop
 version: ${project.version}

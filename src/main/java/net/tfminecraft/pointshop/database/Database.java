@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.database;
+package net.tfminecraft.pointshop.database;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,10 +18,10 @@ import org.json.simple.parser.JSONParser;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import net.tfminecraft.PointShop.loaders.PointLoader;
-import net.tfminecraft.PointShop.managers.PlayerManager;
-import net.tfminecraft.PointShop.objects.PlayerData;
-import net.tfminecraft.PointShop.objects.PointInstance;
+import net.tfminecraft.pointshop.loaders.PointLoader;
+import net.tfminecraft.pointshop.managers.PlayerManager;
+import net.tfminecraft.pointshop.objects.PlayerData;
+import net.tfminecraft.pointshop.objects.PointInstance;
 
 public class Database {
 	private JSONObject json; // org.json.simple

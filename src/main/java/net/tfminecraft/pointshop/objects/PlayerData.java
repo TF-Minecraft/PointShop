@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.objects;
+package net.tfminecraft.pointshop.objects;
 
 import java.util.ArrayList;
 import java.util.List;

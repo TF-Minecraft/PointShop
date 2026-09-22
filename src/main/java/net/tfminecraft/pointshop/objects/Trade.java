@@ -1,12 +1,12 @@
-package net.tfminecraft.PointShop.objects;
+package net.tfminecraft.pointshop.objects;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.ItemStack;
 
-import me.Plugins.TLibs.TLibs;
-import me.Plugins.TLibs.Enums.APIType;
-import me.Plugins.TLibs.Objects.API.ItemAPI;
-import net.tfminecraft.PointShop.loaders.PointLoader;
+import net.tfminecraft.tlibs.TLibs;
+import net.tfminecraft.tlibs.enums.APIType;
+import net.tfminecraft.tlibs.objects.api.ItemAPI;
+import net.tfminecraft.pointshop.loaders.PointLoader;
 
 import java.util.*;
 import java.util.regex.Matcher;

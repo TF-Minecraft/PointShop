@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop;
+package net.tfminecraft.pointshop;
 
 import java.io.File;
 
@@ -7,12 +7,12 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.tfminecraft.PointShop.database.Database;
-import net.tfminecraft.PointShop.loaders.PointLoader;
-import net.tfminecraft.PointShop.loaders.TradeLoader;
-import net.tfminecraft.PointShop.managers.CommandManager;
-import net.tfminecraft.PointShop.managers.PlayerManager;
-import net.tfminecraft.PointShop.managers.PointManager;
+import net.tfminecraft.pointshop.database.Database;
+import net.tfminecraft.pointshop.loaders.PointLoader;
+import net.tfminecraft.pointshop.loaders.TradeLoader;
+import net.tfminecraft.pointshop.managers.CommandManager;
+import net.tfminecraft.pointshop.managers.PlayerManager;
+import net.tfminecraft.pointshop.managers.PointManager;
 
 
 public class PointShop extends JavaPlugin{
