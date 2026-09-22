@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.utils;
+package net.tfminecraft.pointshop.utils;
 
 import org.bukkit.command.CommandSender;
 

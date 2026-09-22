@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.managers;
+package net.tfminecraft.pointshop.managers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import net.tfminecraft.PointShop.database.Database;
-import net.tfminecraft.PointShop.objects.PlayerData;
+import net.tfminecraft.pointshop.database.Database;
+import net.tfminecraft.pointshop.objects.PlayerData;
 
 public class PlayerManager implements Listener{
 	public static List<PlayerData> players = new ArrayList<>();

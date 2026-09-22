@@ -1,4 +1,4 @@
-package net.tfminecraft;
+package net.tfminecraft.pointshop;
 
 public class Main {
     public static void main(String[] args) {

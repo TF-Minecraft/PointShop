@@ -1,8 +1,8 @@
-package net.tfminecraft.PointShop.objects;
+package net.tfminecraft.pointshop.objects;
 
 import org.bukkit.configuration.ConfigurationSection;
 
-import me.Plugins.TLibs.Objects.API.SubAPI.StringFormatter;
+import net.tfminecraft.tlibs.objects.api.subapi.StringFormatter;
 
 public class PointInstance {
 	private String id;

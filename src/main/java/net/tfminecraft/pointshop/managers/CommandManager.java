@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.managers;
+package net.tfminecraft.pointshop.managers;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.*;
@@ -6,11 +6,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.tfminecraft.PointShop.PointShop;
-import net.tfminecraft.PointShop.loaders.PointLoader;
-import net.tfminecraft.PointShop.objects.PlayerData;
-import net.tfminecraft.PointShop.objects.PointInstance;
-import net.tfminecraft.PointShop.utils.Permissions;
+import net.tfminecraft.pointshop.PointShop;
+import net.tfminecraft.pointshop.loaders.PointLoader;
+import net.tfminecraft.pointshop.objects.PlayerData;
+import net.tfminecraft.pointshop.objects.PointInstance;
+import net.tfminecraft.pointshop.utils.Permissions;
 
 import java.util.*;
 import java.util.stream.Collectors;

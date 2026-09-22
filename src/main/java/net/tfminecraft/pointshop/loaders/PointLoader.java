@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.loaders;
+package net.tfminecraft.pointshop.loaders;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import me.Plugins.TLibs.Interface.LoaderInterface;
-import net.tfminecraft.PointShop.objects.PointInstance;
+import net.tfminecraft.tlibs.interfaces.LoaderInterface;
+import net.tfminecraft.pointshop.objects.PointInstance;
 
 public class PointLoader implements LoaderInterface{
 	static List<PointInstance> oList = new ArrayList<PointInstance>();

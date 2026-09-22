@@ -1,4 +1,4 @@
-package net.tfminecraft.PointShop.managers;
+package net.tfminecraft.pointshop.managers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,10 +10,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 
-import net.tfminecraft.PointShop.PointShop;
-import net.tfminecraft.PointShop.loaders.TradeLoader;
-import net.tfminecraft.PointShop.objects.PlayerData;
-import net.tfminecraft.PointShop.objects.Trade;
+import net.tfminecraft.pointshop.PointShop;
+import net.tfminecraft.pointshop.loaders.TradeLoader;
+import net.tfminecraft.pointshop.objects.PlayerData;
+import net.tfminecraft.pointshop.objects.Trade;
 
 public class InventoryManager {
 	public void shopView(Player player, Inventory i, boolean update) {
