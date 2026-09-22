@@ -4,7 +4,6 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.ItemStack;
 
 import net.tfminecraft.tlibs.TLibs;
-import net.tfminecraft.tlibs.enums.APIType;
 import net.tfminecraft.tlibs.objects.api.ItemAPI;
 import net.tfminecraft.pointshop.loaders.PointLoader;
 
@@ -25,7 +24,7 @@ public class Trade {
     public Trade(String key, ConfigurationSection config) {
         this.id = key;
 
-        ItemAPI api = (ItemAPI) TLibs.getApiInstance(APIType.ITEM_API);
+        ItemAPI api = TLibs.getItemAPI();
         this.menuItem = api.getCreator().getItemFromConfig(config.getConfigurationSection("item"));
         this.type = PointLoader.getByString(config.getString("type"));
         this.cost = config.getInt("cost");
