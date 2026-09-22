@@ -1,7 +1,7 @@
 main: net.tfminecraft.PointShop.PointShop
 api-version: 1.20
 name: PointShop
-version: 1.0
+version: ${project.version}
 author: Drefvelin
 
 depend: [TLibs]
