@@ -80,6 +80,8 @@ public class PointShop extends JavaPlugin{
 	public void reload() {
 		loadConfigs();
 	}
+	// Keep the existing legacy text representation, formatting, and exact-string comparisons.
+	@SuppressWarnings("deprecation")
 	public void reloadMessage(Player p) {
 		p.sendMessage(ChatColor.GREEN + "[PointShop]" + ChatColor.YELLOW + " Reloading plugin...");
 		reload();

@@ -16,6 +16,8 @@ import net.tfminecraft.pointshop.objects.PlayerData;
 import net.tfminecraft.pointshop.objects.Trade;
 
 public class InventoryManager {
+	// Keep the existing legacy text representation, formatting, and exact-string comparisons.
+	@SuppressWarnings("deprecation")
 	public void shopView(Player player, Inventory i, boolean update) {
 		if(!update) {
 			i = PointShop.plugin.getServer().createInventory(null, 27, "§7Point Shop");
@@ -28,6 +30,8 @@ public class InventoryManager {
 			player.openInventory(i);
 		}
 	}
+	// Keep the existing legacy text representation, formatting, and exact-string comparisons.
+	@SuppressWarnings("deprecation")
 	public ItemStack createTradeItem(Trade t, PlayerData pd) {
 		ItemStack i = t.getMenuItem();
 		ItemMeta meta = i.getItemMeta();
